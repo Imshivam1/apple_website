@@ -6,6 +6,7 @@ import Model from "./components/Model";
 import * as Sentry from '@sentry/react';
 
 const App = () => {
+  
   return (
     <main className="bg-black">
       <Navbar />
