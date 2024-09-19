@@ -19,6 +19,7 @@ const ModelView = ({ index, groupRef, gsapType, controlRef, setRotationState, si
       <PerspectiveCamera makeDefault position={[0, 0, 4]} />
 
       <Lights />
+      /* Allows the user to interactively rotate the model without zooming or panning */
 
       <OrbitControls 
         makeDefault
