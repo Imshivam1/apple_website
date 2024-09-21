@@ -5,6 +5,7 @@ import Model from "./components/Model";
 
 import * as Sentry from '@sentry/react';
 
+// This function returns the main structure of the app, wrapped with Sentry's profiler for performance tracking
 const App = () => {
   
   return (
@@ -17,4 +18,5 @@ const App = () => {
   )
 }
 
+// Exporting the App component with Sentry's profiler enabled to monitor app performance
 export default Sentry.withProfiler(App);
