@@ -30,7 +30,7 @@ const ModelView = ({ index, groupRef, gsapType, controlRef, setRotationState, si
         target={new THREE.Vector3(0, 0 ,0)}
         onEnd={() => setRotationState(controlRef.current.getAzimuthalAngle())}
       /> 
-
+/*This controls the size of the 3660 iphone model. */
       <group ref={groupRef} name={`${index === 1} ? 'small' : 'large`} position={[0, 0 ,0]}>
         <Suspense fallback={<Loader />}>
           <IPhone 
