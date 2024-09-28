@@ -5,6 +5,7 @@ import Model from "./components/Model";
 
 import * as Sentry from '@sentry/react';
 import Features from "./components/Features";
+import HowItWorks from "./components/HowItWorks";
 
 // This function returns the main structure of the app, wrapped with Sentry's profiler for performance tracking
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Highlights />
       <Model />
       <Features />
+      <HowItWorks />
     </main>
   )
 }
