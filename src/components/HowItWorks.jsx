@@ -1,5 +1,5 @@
 import React from 'react'
-import { chipImg } from '../utils'
+import { chipImg, frameImg } from '../utils'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap';
 
@@ -30,6 +30,16 @@ const HowItWorks = () => {
               <p className='hiw-subtitle'>
                 It's here. Tne biggest redesign in the history of Apple.
               </p>
+            </div>
+            <div className='mt-10 md:mt-20 mb-14'>
+              <div className='relative h-full flex-center'>
+                <div className='overflow-hidden'>
+                  <img src={frameImg} 
+                  alt='frame'
+                  className='bg-transparent relative z-10'
+                  />
+                </div>
+              </div>
             </div>
         </div>
     </section>
