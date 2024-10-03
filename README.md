@@ -108,3 +108,4 @@ For any queries or collaboration, reach out to me:
 
 - **LinkedIn**: [Shivam Kumar Manjhi](https://www.linkedin.com/in/imshivam1/)
 - **Twitter**: [@imshivam0123](https://twitter.com/imshivam0123)
+- **Mail**: [Mail Me](mailto:shivamkumar.love@gmail.com)
